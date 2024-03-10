@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Memory Mania",
+    "slug": "memorymania",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.vigneshreddyjulakanti.memorymania",
+      "versionCode": 6,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "13dd8c30-29f7-41b5-b185-af9e8b8691e9"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "enter_yours"
+  }
+}
